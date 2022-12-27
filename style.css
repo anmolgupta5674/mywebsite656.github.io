@@ -1,0 +1,166 @@
+/*CSS Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*body*/
+
+body{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('./skyline-ga2f31d007_1920.jpg');
+}
+
+nav{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo{
+    width: 50%;
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 80px;
+    border: 2px solid #fff;
+}
+
+.nav-links{
+    width: 50%;
+ 
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-image{
+    width: 50%;
+}
+
+.main-content-image img{
+    border-radius: 50%;
+    width: 300px;
+}
+
+.main-content-heading h1{
+    color: #fff;
+    text-align: center;
+
+}
+
+.main-content-heading p{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+@media only screen and (max-width:480px){
+    /*CSS Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*body*/
+
+body{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('./skyline-ga2f31d007_1920.jpg');
+}
+
+nav{
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.logo{
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 40px;
+    border: 2px solid #fff;
+}
+
+.nav-links{
+    
+    flex-direction: column;
+ 
+   
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-image{
+    width: 50%;
+}
+
+.main-content-image img{
+    border-radius: 50%;
+    width: 300px;
+}
+
+.main-content-heading h1{
+    color: #fff;
+    text-align: center;
+
+}
+
+.main-content-heading p{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+}
